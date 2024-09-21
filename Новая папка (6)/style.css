@@ -1,0 +1,56 @@
+.kubik {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 3s;
+}
+
+body {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteiner {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.kubik1:hover {
+    transform: rotate(45deg);
+    background-color: aqua;
+    
+    transition: 3s;
+}
+
+
+.kubik2:hover {
+    transform: skew(-45deg);
+    background-color: aqua;
+    transition: 3s;
+    
+}
+
+
+.kubik3:hover {
+    transform: scaleX(-2);
+    background-color: aqua;
+    transition: 3s;
+}
+
+
+.kubik4:hover {
+    transform: translateX(50px);
+    background-color: aqua;
+    transition: 3s;
+}
